@@ -1,0 +1,86 @@
+#vertical {
+	position: absolute;
+	margin-top: 300px;
+	width: 100%;
+	height: 340px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0a85a8), to(#18a5cc)); 
+    background:  -moz-linear-gradient(25% 75% 90deg,#18a5cc, #0a85a8); 
+	color: #18a5cc;
+	-webkit-box-shadow: 0px 0px 8px rgba(f, f, f, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(f, f, f, 0.3);
+	box-shadow: 0px 0px 8px rgba(f, f, f, 0.3);
+}
+
+
+#login_popup {
+	position: relative;
+	display: none;
+	float: left;
+	padding: 10px;
+	top: 40px;
+	margin-left: 50%;
+	left: -160px;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.7);
+	border: 1px solid #CCCCCC;
+	border: inset 1px solid #333;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#FEFEE8));
+	background: -moz-linear-gradient(bottom, #CCCCCC, #FEFEE8 175px);
+}
+
+#logo_srbn {
+	position: absolute;
+	margin-top: -280px;
+	margin-left: 50%;
+	left: -125px;
+}
+
+
+#top_menu_admin, #top_menu_user {
+	padding-left: 6%;
+	padding-right: 6%;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	box-shadow: 1px 1px 2px 1px #AAA;
+	background-image: -webkit-gradient(linear, 0% 0% 0% 100%, from(#020202), to(#292d30));
+	background-image: -webkit-linear-gradient(top, #020202, #292d30);
+	background-image: -moz-linear-gradient(top, #020202, #292d30);
+	background-image: -ms-linear-gradient(top, #020202, #292d30);
+	background-image: -o-linear-gradient(top, #020202, #292d30);
+	z-index: 20;
+}
+
+
+#content {
+	margin: 150px auto;
+}
+#content .content {
+	width: 100%;
+	margin: 60px auto;
+	position: fixed;
+	text-align: center;
+}
+
+#footer {
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	box-shadow: 1px 1px 2px 1px #AAA;
+	background-image: -webkit-gradient(linear, 0% 0% 0% 100%, from(#292d30), to(#020202));
+	background-image: -webkit-linear-gradient(top, #292d30, #020202);
+	background-image: -moz-linear-gradient(top, #292d30, #020202);
+	background-image: -ms-linear-gradient(top, #292d30, #020202);
+	background-image: -o-linear-gradient(top, #292d30, #020202);
+	bottom: 0;
+	padding-left: 6%;
+	padding-right: 6%;
+	z-index: 20;
+}
+

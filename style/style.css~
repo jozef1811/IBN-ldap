@@ -1,0 +1,338 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+<!----------------------------- CSS RESET---------------------------------------->
+
+body {
+	background: url('../images/background.png') repeat;
+	padding: 0px;
+	border: 0px solid white;
+}
+
+<!----------------------------- Login Popup---------------------------------------->
+
+#login_popup form {
+	position:relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 30px;
+	font-weight: bold;
+	padding:10px;
+	text-decoration: none;
+	color: #C0C0C0;
+}
+
+#login_popup h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #CFCFCF;
+	margin-bottom: 10px;
+}
+
+#login_popup form label {
+	line-height: 30px;
+	color: #C0C0C0;
+}
+
+#login_popup form input {
+	width:275px;
+	display:block;
+	border: 1px solid #999;
+	height: 25px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#login_popup form #submit_button {
+	display: block;
+	width:150px;
+	bottom:20px;
+	margin: 10px auto;
+	color: #FFFFFF;
+	background: -webkit-gradient(linear, bottom, left, from(#777B88), to(#E0E6FF));
+	background: -moz-linear-gradient(bottom, #777B88, #E0E6FF);
+	font-size: 18px;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:40px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1p solid #999;
+	-webkit-box-shadow: 0px 0px 8px rgba(f, f, f, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(f, f, f, 0.3);
+	box-shadow: 0px 0px 8px rgba(f, f, f, 0.3);
+}
+
+#login_popup form label #submit_button:hover {
+	color:#FEFEE8;
+	background: -webkit-gradient(linear, bottom, left, from(#777F88), to(#E0E7FF));
+	background: -moz-linear-gradient(bottom, #777F88, #E0E7FF);
+	cursor: pointer;
+}
+
+<!------------------------------- top_menu -------------------------------------->
+
+#top_menu_admin li {
+	float: left;
+	/*background-image: -webkit-gradient(linear, 0% 0% 0% 100%, from(#2F2727), to(#FFFFFF));
+	background-image: -webkit-linear-gradient(top, #2F2727, #FFFFFF);
+	background-image: -moz-linear-gradient(top, #2F2727, #FFFFFF);
+	background-image: -ms-linear-gradient(top, #2F2727, #FFFFFF);
+	background-image: -o-linear-gradient(top, #2F2727, #FFFFFF);*/
+}
+
+#top_menu_admin ul li a {
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 5px;
+	width: 80px;
+	height: 40px;
+	display: inline;
+	text-decoration: none;
+	text-align: center;
+	line-height: 60px;
+	position: bottom;
+	font-family: arial;
+	font-size: 10px;
+	font-weight: bold;	
+	color: #BDBDBD;
+	cursor: pointer;
+}
+
+#top_menu_admin ul li ul {
+	height: 50px;
+	box-shadow: 1px 1px 1px #CCC;
+	background: none;
+	background: -webkit-gradient(linear, 0% 0% 0% 100%, from(#E0E0E0), to(#F0F0F0));
+	background: -webkit-linear-gradient(top, #E0E0E0, #F0F0F0);
+	background: -moz-linear-gradient(top, #E0E0E0, #F0F0F0);
+	background: -ms-linear-gradient(top, #E0E0E0, #F0F0F0);
+	background: -o-linear-gradient(top, #E0E0E0, #F0F0F0);
+	padding-left: 3%;
+	position: absolute;
+	top: 47px;
+	left: 0px;
+	width: 100%; 
+	display: inline;
+	float: left;
+
+}
+
+#top_menu_admin ul li ul li a {
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+	color: #333333;	
+}
+
+#top_menu_admin ul a:link, #top_menu_user ul a:link {
+	border: 0px;
+}
+
+#top_menu_admin ul li a.users {
+	background-image: url('../images/icons/users.png');	
+}
+#top_menu_admin ul li a.users:hover{
+	background-image: url('../images/icons/users1.png');
+	color: #FFFFFF;
+}
+
+#top_menu_admin ul li a.devices {
+	background-image: url('../images/icons/device.png');
+}
+
+#top_menu_admin ul li a.devices:hover {
+	background-image: url('../images/icons/device1.png');	
+	color: #FFFFFF;
+}
+
+#top_menu_admin ul li a.ports {
+	background-image: url('../images/icons/port.png');	
+}
+
+#top_menu_admin ul li a.ports:hover {
+	background-image: url('../images/icons/port1.png');		
+	color: #FFFFFF;
+}
+
+#top_menu_admin ul li a.temperature {
+	background-image: url('../images/icons/temperature.png');	
+}
+
+#top_menu_admin ul li a.temperature:hover {
+	background-image: url('../images/icons/temperature1.png');		
+	color: #FFFFFF;
+}
+
+#top_menu_admin ul li a.camera {
+	background-image: url('../images/icons/camera.png');
+}
+
+#top_menu_admin ul li a.camera:hover {
+	background-image: url('../images/icons/camera1.png');
+	color: #FFFFFF;
+}
+
+#top_menu_admin ul li a.quota {
+	background-image: url('../images/icons/kvota.png');	
+}
+
+#top_menu_admin ul li a.quota:hover {
+	background-image: url('../images/icons/kvota1.png');		
+	color: #FFFFFF;
+}
+
+#top_menu_admin ul li a.export {
+	background-image: url('../images/icons/export.png');	
+}
+
+#top_menu_admin ul li a.export:hover {
+	background-image: url('../images/icons/export1.png');	
+	font-weight: bold;	
+	color: #FFFFFF;
+}
+
+#top_menu_admin .user_add {
+	background-image: url('../images/icons/add.png');
+}
+
+#top_menu_admin .user_delete {
+	background-image: url('../images/icons/delete.png');	
+}
+
+#top_menu_admin .user_find {
+	background-image: url('../images/icons/find.png');	
+}
+
+#top_menu_admin .device_add {
+	background-image: url('../images/icons/device_add.png');
+}
+
+#top_menu_admin .device_delete {
+	background-image: url('../images/icons/device_delete.png');
+}
+
+#top_menu_admin .device_find {
+	background-image: url('../images/icons/find.png');	
+}
+
+<!------------------------------- content -------------------------------------->
+
+#content li {
+	float: center;
+}
+
+#content ul a {
+	float: left;
+	background-image: -webkit-gradient(linear, 0% 0% 0% 100%, from(#C8C8C8), to(#E8E8E8));
+	background-image: -webkit-linear-gradient(top, #C8C8C8, #E8E8E8);
+	background-image: -moz-linear-gradient(top, #C8C8C8, #E8E8E8);
+	background-image: -ms-linear-gradient(top, #C8C8C8, #E8E8E8);
+	background-image: -o-linear-gradient(top, #C8C8C8, #E8E8E8);
+	margin-top: 5%;
+	background-repeat: no-repeat;
+	width: 12%;
+	height: 12%;
+	line-height: 150px;
+	text-decoration: none
+	font-family: arial;
+	display: inline;
+	box-shadow: 0px 0px 3px 3px #DDD;
+	border-radius: 10px;
+}
+
+#content .users {
+	margin-left: 29%;
+}
+
+#content .devices {
+	margin-left: 2%;
+}
+
+#content .ports {
+	margin-left: 2%;
+}
+
+#content .temperature {
+	margin-left: -47%;
+	margin-top: 18%;
+}
+
+#content .camera {
+	margin-left: -33%;
+	margin-top: 18%;
+}
+
+#content .kvota {
+	margin-left: -19%;
+	margin-top: 18%;
+}
+
+#content .export {
+	margin-left: -5%;
+	margin-top: 18%;
+}
+
+<!------------------------------- footer -------------------------------------->
+
+#footer {
+
+}
+
+#footer li a {
+	float: right;
+	padding-right: 1%;
+	display: inline;
+	color: #BDBDBD;
+	font-size: 10px;
+	font-family: arial;
+}
+
+#footer .users {
+	padding-right: 7%;
+}

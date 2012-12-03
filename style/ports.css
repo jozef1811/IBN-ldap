@@ -1,0 +1,80 @@
+#content .content_ports { 
+    margin: 100px auto; 	
+    color: #555;	 
+    width: 1060px; 
+    height: 110px;
+    font-family: 'Yanone Kaffeesatz', arial, sans-serif;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px; 
+    border-radius: 0px 10px 10px 10px;
+    border: 1px solid #ddd; 
+    z-index: 100;
+    background: -webkit-gradient(linear, 0% 0%, 0% 40%, from(#EEE), to(#FFF)); 
+    background: -moz-linear-gradient(0% 40% 90deg,#FFF, #EEE); 
+
+    -webkit-box-shadow:0px 0 50px #ccc;
+    -moz-box-shadow:0px 0 50px #ccc; 
+    box-shadow:0px 0 50px #ccc;
+}
+
+#content .content_ports span {
+    position: absolute;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0a85a8), to(#18a5cc)); 
+    background:  -moz-linear-gradient(25% 75% 90deg,#18a5cc, #0a85a8); 
+    border: 1px 1px 1px 1px solid #18a5cf;
+    margin-top: -36px; 
+    padding: 5px; 
+    color: #555;
+    display: inline; 
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 5;
+    -webkit-box-shadow:0px 0 50px #ccc;
+    -moz-box-shadow:0px 0 50px #ccc; 
+    box-shadow:0px 0 50px #ccc;
+}	
+
+#content .content_ports span h1 {  
+    font-size: 24px;
+    padding-left: 26px;
+    line-height: 26px;
+    color: #fff;    
+}
+
+
+
+#content .content_ports .ports_search_img h1 {
+    background: url('../../images/icons/port.png') 0px 2px no-repeat;
+}
+
+#content .content_ports .ports_search_top  {
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+#content .content_ports .ports_search_top table {
+    margin: 0px auto;
+    text-align: center;
+}
+
+#content .content_ports .ports_search_top table .switch_port {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0a85a8), to(#18a5cc)); 
+    background:  -moz-linear-gradient(25% 75% 90deg,#18a5cc, #0a85a8); 
+    color: #fff;
+}
+#content .content_ports .ports_search_top table tr td{ 
+	border: 1px solid #aaa;
+	width: 41px;
+	display: inline-block;
+	font-size: 18px;
+}
+
+#content .content_ports .ports_search_top table tr td b{ 
+	font-size: 22px;
+}
+
+
+
+
+

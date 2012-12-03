@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<!---	<link rel="stylesheet" href="../style/960/960_12_col.css"> --->
+	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/divs.css"> 
+</head>
+<body>
+
+<!--- <div id="window" class="container_12"> --->
+
+ <!--- First row for Partner links and search--------------------------------->
+  <div id="logout" >
+   <?= $logout ?>
+  </div>
+  <div id="top_menu_admin">
+   <?= $top_menu_admin ?>
+  </div> 					      <!-- End div top_menu -->
+  <div id="sub_menu_admin">
+   <?= $sub_menu_admin ?>
+  </div> 					      <!-- End div sub_menu -->
+ <!------End of first row ---------------------------------------------------->
+
+ <!---- Fourth row for main screen ------------------------------------------->
+  <div id="content">
+   <?= $content ?>
+  </div>					       <!-- End div content -->
+ <!------- End of fourth row ------------------------------------------------->
+
+ <!---- Fifth row for footer ------------------------------------------------->
+  <div id="footer">
+   <?= $footer ?>
+  </div>					       <!-- End div footer -->
+ <!------- End of fifth row ------------------------------------------------->
+
+<!--- </div> <!--End div window -->
+
+</body>
+</html>

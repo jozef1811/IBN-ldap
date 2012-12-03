@@ -1,0 +1,63 @@
+#content .content_camera { 
+    margin: 0 auto; 
+    background: #f5f5f5; 	
+    color: #555;	 
+    width: 960px; 
+	height: 340px;
+    font-family: 'Yanone Kaffeesatz', arial, sans-serif;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    -moz-border-radius: 0px 10px 10px 0px; 
+    border-radius: 0px 10px 10px 10px;
+    border: 1px solid #ddd; 
+    z-index: 100;
+    background: -webkit-gradient(linear, 0% 0%, 0% 40%, from(#EEE), to(#FFF)); 
+    background: -moz-linear-gradient(0% 40% 90deg,#FFF, #EEE); 
+
+    -webkit-box-shadow:0px 0 50px #ccc;
+    -moz-box-shadow:0px 0 50px #ccc; 
+    box-shadow:0px 0 50px #ccc;
+}
+
+#content .content_camera span {
+    position: absolute;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0a85a8), to(#18a5cc)); 
+    background:  -moz-linear-gradient(25% 75% 90deg,#18a5cc, #0a85a8); 
+    border: 1px 1px 1px 1px solid #18a5cf;
+    margin-top: -36px; 
+    padding: 5px; 
+    color: #555;
+    display: inline; 
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 5;
+    -webkit-box-shadow:0px 0 50px #ccc;
+    -moz-box-shadow:0px 0 50px #ccc; 
+    box-shadow:0px 0 50px #ccc;
+}	
+
+#content .content_camera span h1 {  
+    font-size: 24px;
+    padding-left: 26px;
+    line-height: 26px;
+    color: #fff;    
+}
+
+
+
+#content .content_camera .camera_search_img h1 {
+    background: url('../../images/icons/camera.png') 0px 2px no-repeat;
+}
+
+
+#content #kamera {
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 10px;
+}
+
+#content body { font-family: Tahoma, Arial, Verdana; font-size: 12px; 	color: black; }
+
+
+
+
